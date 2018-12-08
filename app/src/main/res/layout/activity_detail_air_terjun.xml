@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.asus.tubes.DetailAirTerjun">
+    tools:context="com.example.anggi.tubes.Fragment.DetailAirTerjun">
 
     <ScrollView
         android:layout_width="match_parent"

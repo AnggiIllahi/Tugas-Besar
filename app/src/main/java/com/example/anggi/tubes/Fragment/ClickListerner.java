@@ -1,4 +1,4 @@
-package com.example.anggi.tubes;
+package com.example.anggi.tubes.Fragment;
 
 import android.view.View;
 
@@ -6,7 +6,7 @@ import android.view.View;
  * Created by ASUS on 12-Jan-18.
  */
 
-class ClickListerner {
+public class ClickListerner {
     public void onLongClick(View child, int childPosition) {
     }
 

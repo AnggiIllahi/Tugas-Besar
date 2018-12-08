@@ -73,18 +73,18 @@ android:tag="cards main container">
 
         <TextView
             android:id="@+id/deskripsi"
-            android:layout_width="8dp"
-            android:layout_height="211dp"
+            android:layout_width="14dp"
+            android:layout_height="33dp"
             android:layout_gravity="center_horizontal"
             android:text="Link"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@android:color/background_light"
             card_view:layout_constraintBottom_toBottomOf="parent"
             card_view:layout_constraintEnd_toEndOf="parent"
-            card_view:layout_constraintHorizontal_bias="1.0"
+            card_view:layout_constraintHorizontal_bias="0.983"
             card_view:layout_constraintStart_toStartOf="parent"
             card_view:layout_constraintTop_toTopOf="parent"
-            card_view:layout_constraintVertical_bias="0.953" />
+            card_view:layout_constraintVertical_bias="1.0" />
 
 
     </android.support.constraint.ConstraintLayout>

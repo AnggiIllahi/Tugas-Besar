@@ -1,4 +1,4 @@
-package com.example.anggi.tubes;
+package com.example.anggi.tubes.Fragment;
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.GestureDetector;

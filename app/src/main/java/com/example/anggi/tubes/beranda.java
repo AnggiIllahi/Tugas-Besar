@@ -11,8 +11,8 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 
 import com.example.anggi.tubes.Fragment.Fragmen1;
-import com.example.anggi.tubes.Fragment.Fragmen1;
-import com.example.anggi.tubes.Fragment.Fragmen1;
+import com.example.anggi.tubes.Fragment.Fragmen2;
+import com.example.anggi.tubes.Fragment.Fragmen3;
 
 public class beranda extends AppCompatActivity {
     Button btnSatu,btnDua,btnTiga;
@@ -35,6 +35,22 @@ public class beranda extends AppCompatActivity {
                 //membuat sebuah object baru dari framment 1
                 Fragmen1 fs = new Fragmen1();
                 gantiFragment(fs);
+            }
+        });
+
+        btnDua.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragmen2 fd = new Fragmen2();
+                gantiFragment(fd);
+            }
+        });
+
+        btnTiga.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragmen3 ft = new Fragmen3();
+                gantiFragment(ft);
             }
         });
     }

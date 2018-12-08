@@ -1,10 +1,12 @@
-package com.example.anggi.tubes;
+package com.example.anggi.tubes.Fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.anggi.tubes.R;
 
 public class DetailAirTerjun extends AppCompatActivity {
     private TextView judul,link,deskripsi;
