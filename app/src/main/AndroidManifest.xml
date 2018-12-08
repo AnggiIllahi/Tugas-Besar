@@ -10,12 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+            android:theme="@android:style/Theme.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".beranda" />
+        <activity android:name=".Fragment.Fragmen1" />
+        <activity android:name=".Fragment.Fragmen2" />
+        <activity android:name=".Fragment.Fragmen3"></activity>
     </application>
 
 </manifest>
