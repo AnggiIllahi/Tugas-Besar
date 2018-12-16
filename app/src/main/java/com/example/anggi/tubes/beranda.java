@@ -13,6 +13,7 @@ import android.widget.FrameLayout;
 import com.example.anggi.tubes.Fragment.Fragmen1;
 import com.example.anggi.tubes.Fragment.Fragmen2;
 import com.example.anggi.tubes.Fragment.Fragmen3;
+import com.example.anggi.tubes.Fragment.FragmenIsiBeranda;
 
 public class beranda extends AppCompatActivity {
     Button btnSatu,btnDua,btnTiga;
@@ -28,6 +29,9 @@ public class beranda extends AppCompatActivity {
         btnSatu = findViewById(R.id.button1);
         btnDua = findViewById(R.id.button2);
         btnTiga = findViewById(R.id.button3);
+
+        FragmenIsiBeranda fs = new FragmenIsiBeranda();
+        gantiFragment(fs);
 
         btnSatu.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,6 +57,10 @@ public class beranda extends AppCompatActivity {
                 gantiFragment(ft);
             }
         });
+
+
+
+
     }
 
     //membuatb fungsi supaya bisa dipanggil2
@@ -60,7 +68,7 @@ public class beranda extends AppCompatActivity {
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
         //setelah punya fragment transaction, baru bisa menambah, mengurangi atau hapus fragment
-        ft.add(R.id.frameFragment,fragment);
+        ft.replace(R.id.frameFragment,fragment);
         ft.commit();
     }
 }

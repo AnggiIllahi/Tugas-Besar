@@ -157,11 +157,6 @@ public class Fragmen1 extends Fragment {
                 "Air Terjun Tumpak Sewu","Salah satu destinasi wisata favorit di Lumajang.",R.drawable.at1);
         riwayatList.add(riwayat5);
 
-
-//        riwayat = new model_airterjun("Air Terjun Coban Pawon ",
-//                "Air Terjun Coban Pawon", "Air terjun, dalam gunung di Lumajang",R.drawable.at8);
-//        riwayatList.add(riwayat);
-
         mAdapter.notifyDataSetChanged();
     }
 

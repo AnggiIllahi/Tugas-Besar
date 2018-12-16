@@ -21,8 +21,9 @@
         <activity android:name=".Fragment.Fragmen1" />
         <activity android:name=".Fragment.Fragmen2" />
         <activity android:name=".Fragment.Fragmen3" />
-        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".Main2Activity" />
         <activity android:name=".Fragment.DetailAirTerjun" />
+        <activity android:name=".Fragment.FragmenIsiBeranda" />
     </application>
 
 </manifest>
