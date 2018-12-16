@@ -41,10 +41,16 @@
         <activity android:name=".MenuMaps" />
         <activity android:name=".MapsActivity" />
         <activity
-            android:name=".MapsResto"
-            android:label="@string/title_activity_maps_resto" />
+        android:name=".MapsResto"
+        android:label="@string/title_activity_maps_resto" />
         <activity
             android:name=".MapsHotel"
+            android:label="@string/title_activity_maps_hotel"></activity>
+        <activity
+            android:name=".MapsSekolah"
+            android:label="@string/title_activity_maps_resto" />
+        <activity
+            android:name=".MapsRumahSakit"
             android:label="@string/title_activity_maps_hotel"></activity>
     </application>
 

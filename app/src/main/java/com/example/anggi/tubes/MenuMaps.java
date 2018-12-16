@@ -34,6 +34,27 @@ public class MenuMaps extends AppCompatActivity {
                 startActivity(i);
             }
         });
+        myButton = (Button) findViewById(R.id.rumah_sakit);
+        myButton.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+                Intent i = new Intent(getApplicationContext(), MapsRumahSakit.class);
+                startActivity(i);
+            }
+        });
+
+        myButton = (Button) findViewById(R.id.sekolah);
+        myButton.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+                Intent i = new Intent(getApplicationContext(), MapsSekolah.class);
+                startActivity(i);
+            }
+        });
 
 //        myButton = (Button) findViewById(R.id.hotel);
 //        myButton.setOnClickListener(new View.OnClickListener()
