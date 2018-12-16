@@ -6,13 +6,13 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.example.anggi.tubes.MenuMaps;
 import com.example.anggi.tubes.R;
 
 public class FragmenIsiBeranda extends Fragment {
@@ -61,8 +61,8 @@ public class FragmenIsiBeranda extends Fragment {
             @Override
             public void onClick(View v)
             {
-                //Intent i = new Intent(getContext(), MainActivityMaps.class);
-                //startActivity(i);
+                Intent i = new Intent(getContext(), MenuMaps.class);
+                startActivity(i);
             }
         });
 

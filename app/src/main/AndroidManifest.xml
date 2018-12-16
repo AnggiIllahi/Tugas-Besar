@@ -2,6 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.anggi.tubes">
 
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"
@@ -9,6 +16,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
         <activity android:name=".MainActivity">
             android:theme="@android:style/Theme.NoTitleBar">
             <intent-filter>
@@ -24,6 +38,14 @@
         <activity android:name=".Main2Activity" />
         <activity android:name=".Fragment.DetailAirTerjun" />
         <activity android:name=".Fragment.FragmenIsiBeranda" />
+        <activity android:name=".MenuMaps" />
+        <activity android:name=".MapsActivity" />
+        <activity
+            android:name=".MapsResto"
+            android:label="@string/title_activity_maps_resto" />
+        <activity
+            android:name=".MapsHotel"
+            android:label="@string/title_activity_maps_hotel"></activity>
     </application>
 
 </manifest>

@@ -14,4 +14,6 @@
     <string name="silent_mode_activated">Silent mode activated</string>
     <string name="touch_to_relaunch">Touch to launch the app.</string>
     <string name="back_to_normal">Back to normal</string>
+    <string name="title_activity_maps_resto">Map</string>
+    <string name="title_activity_maps_hotel">Map</string>
 </resources>
