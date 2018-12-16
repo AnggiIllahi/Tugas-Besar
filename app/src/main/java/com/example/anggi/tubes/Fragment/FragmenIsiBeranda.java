@@ -1,5 +1,6 @@
 package com.example.anggi.tubes.Fragment;
 
+import android.content.ComponentName;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -50,8 +51,9 @@ public class FragmenIsiBeranda extends Fragment {
             @Override
             public void onClick(View v)
             {
-                Fragmen3 fs = new Fragmen3();
-                gantiFragment(fs);
+                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.setComponent(new ComponentName("com.ti3h.maingambar","com.ti3h.maingambar.MainGambar"));
+                startActivity(intent);
             }
         });
 
@@ -63,6 +65,30 @@ public class FragmenIsiBeranda extends Fragment {
             {
                 Intent i = new Intent(getContext(), MenuMaps.class);
                 startActivity(i);
+            }
+        });
+
+        Button btn5 = (Button) view.findViewById(R.id.garden);
+        btn5.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.setComponent(new ComponentName("com.example.android.mygarden","com.example.android.mygarden.ui.MainActivity"));
+                startActivity(intent);
+            }
+        });
+
+        Button btn6 = (Button) view.findViewById(R.id.lagu);
+        btn6.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.setComponent(new ComponentName("com.example.android.classicalmusicquiz","com.example.android.classicalmusicquiz.MainActivity"));
+                startActivity(intent);
             }
         });
 

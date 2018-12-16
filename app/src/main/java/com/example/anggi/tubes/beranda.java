@@ -1,6 +1,8 @@
 package com.example.anggi.tubes;
 
 
+import android.content.ComponentName;
+import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -53,8 +55,11 @@ public class beranda extends AppCompatActivity {
         btnTiga.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragmen3 ft = new Fragmen3();
-                gantiFragment(ft);
+                //Fragmen3 ft = new Fragmen3();
+                //gantiFragment(ft);
+                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.setComponent(new ComponentName("com.ti3h.maingambar","com.ti3h.maingambar.MainGambar"));
+                startActivity(intent);
             }
         });
 
