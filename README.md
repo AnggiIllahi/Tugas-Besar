@@ -1,5 +1,5 @@
 ## Nama Kelompok :
-Anggi Illahi Sulthon (1541180003)
+Anggi Illahi Sulton (1541180003)
 Novia Puspitasari (1541180183)
 
 # DESKRIPSI - APLIKASI DESA WISATA
@@ -14,7 +14,7 @@ pada fitur permainan disediakan 2 buah permainan yaitu Garden Game dan Game Teba
 game Tamagochi, yaitu merawat tanaman, yang mana nnti tanaman itu bisa tumbuh. Garden Game dibuat dengan menggunakan Widget, sedangkan Game Tebak Lagu dibuat dengan  menggunakan Media Playback. 
 
 ## Berikut Hasil dari Aplikasi :
-1.SplashScreen
+### 1.SplashScreen
 ![](a.png)
 
 2.Beranda
