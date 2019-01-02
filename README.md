@@ -16,6 +16,7 @@ game Tamagochi, yaitu merawat tanaman, yang mana nnti tanaman itu bisa tumbuh. G
 ## Berikut Hasil dari Aplikasi :
 ### 1.SplashScreen
 ![](a.png)
+<img src="a.png" width="48">
 
 ### 2.Beranda
 ![](b.png)
