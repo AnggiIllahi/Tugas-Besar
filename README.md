@@ -1,10 +1,3 @@
-img[src~="thumbnail"] {
-   width:150px;
-   height:100px;
-}
-img[src~="bordered"] {
-   border: 1px solid black;
-}
 ## Nama Kelompok :
 Anggi Illahi Sulthon (1541180003)
 Novia Puspitasari (1541180183)
@@ -22,7 +15,7 @@ game Tamagochi, yaitu merawat tanaman, yang mana nnti tanaman itu bisa tumbuh. G
 
 ## Berikut Hasil dari Aplikasi :
 1.SplashScreen
-![](a.png# thumbnail bordered)
+![](a.png)
 
 2.Beranda
 ![](b.png)
