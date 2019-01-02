@@ -17,42 +17,42 @@ game Tamagochi, yaitu merawat tanaman, yang mana nnti tanaman itu bisa tumbuh. G
 ### 1.SplashScreen
 ![](a.png)
 
-2.Beranda
+### 2.Beranda
 ![](b.png)
 
-3.Desa Wisata
+### 3.Desa Wisata
 ![](c.png)
 ![](d.png)
 
-4.Detail Desa Wisata
+### 4.Detail Desa Wisata
 ![](d2.png)
 
-5.Makanan Khas
+### 5.Makanan Khas
 ![](e.png)
 ![](f.png)
 
-6.Detail Makanan Khas
+### 6.Detail Makanan Khas
 ![](f2.png)
 
-7.Kritik dan Saran
+### 7.Kritik dan Saran
 ![](g.png)
 
-8.List Kritik Saran
+### 8.List Kritik Saran
 ![](h.png)
 
-9.Lokasi (List)
+### 9.Lokasi (List)
 ![](i.png)
 
-10.Lokasi (Detail)
+### 10.Lokasi (Detail)
 ![](j.png)
 
-11.Garden Game
+### 11.Garden Game
 ![](k.png)
 ![](l.png)
 ![](m.png)
 ![](n.png)
 
-12.Game Tebak Lagu
+### 12.Game Tebak Lagu
 ![](o.png)
 ![](p.png)
 ![](q.png)
