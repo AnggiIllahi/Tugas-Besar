@@ -15,46 +15,46 @@ game Tamagochi, yaitu merawat tanaman, yang mana nnti tanaman itu bisa tumbuh. G
 
 ## Berikut Hasil dari Aplikasi :
 ### 1.SplashScreen
-<img src="a.png" width="100">
+<img src="a.png" width="200">
 
 ### 2.Beranda
-![](b.png)
+<img src="b.png" width="200">
 
 ### 3.Desa Wisata
-![](c.png)
-![](d.png)
+<img src="c.png" width="200">
+<img src="d.png" width="200">
 
 ### 4.Detail Desa Wisata
-![](d2.png)
+<img src="d2.png" width="200">
 
 ### 5.Makanan Khas
-![](e.png)
-![](f.png)
+<img src="e.png" width="200">
+<img src="f.png" width="200">
 
 ### 6.Detail Makanan Khas
-![](f2.png)
+<img src="f2.png" width="200">
 
 ### 7.Kritik dan Saran
-![](g.png)
+<img src="g.png" width="200">
 
 ### 8.List Kritik Saran
-![](h.png)
+<img src="h.png" width="200">
 
 ### 9.Lokasi (List)
-![](i.png)
+<img src="i.png" width="200">
 
 ### 10.Lokasi (Detail)
-![](j.png)
+<img src="j.png" width="200">
 
 ### 11.Garden Game
-![](k.png)
-![](l.png)
-![](m.png)
-![](n.png)
+<img src="k.png" width="200">
+<img src="l.png" width="200">
+<img src="m.png" width="200">
+<img src="n.png" width="200">
 
 ### 12.Game Tebak Lagu
-![](o.png)
-![](p.png)
-![](q.png)
+<img src="o.png" width="200">
+<img src="p.png" width="200">
+<img src="q.png" width="200">
 
 
